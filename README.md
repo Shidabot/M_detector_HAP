@@ -90,8 +90,8 @@ Clone the repository and catkin_make:
 ```
 dataset: 3    #0 for kitti, 1 for nuscenes, 2 for waymo
 buffer_delay: 0.1
-buffer_size: 100000
-points_num_perframe: 30000
+buffer_size: 150000 //100000
+**points_num_perframe: 45200** //30000
 depth_map_dur: 0.2
 max_depth_map_num: 5
 max_pixel_points: 5
